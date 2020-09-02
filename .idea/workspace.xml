@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32b02e85-0eb4-4536-9cfd-c1f360f640d9" name="Default Changelist" comment="" />
+    <list default="true" id="32b02e85-0eb4-4536-9cfd-c1f360f640d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBase/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/car.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/car.middleware.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -21,6 +29,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1gu9FuOtnAHmD3cnQFM55zmQbhj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,6 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.2" />
@@ -49,7 +59,9 @@
       <workItem from="1598953514751" duration="4000" />
       <workItem from="1598953566522" duration="1167000" />
       <workItem from="1598964554952" duration="9679000" />
-      <workItem from="1599036563297" duration="3108000" />
+      <workItem from="1599036563297" duration="4909000" />
+      <workItem from="1599044644522" duration="270000" />
+      <workItem from="1599046185071" duration="1463000" />
     </task>
     <servers />
   </component>
@@ -57,6 +69,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="598" y="325" key="Github.ShareDialog" timestamp="1599040280924">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state x="598" y="325" key="Github.ShareDialog/0.23.1440.788@0.23.1440.788" timestamp="1599040280924" />
+    <state x="855" y="23" key="Github.UntrackedFilesDialog" timestamp="1599040306999">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state x="855" y="23" key="Github.UntrackedFilesDialog/0.23.1440.788@0.23.1440.788" timestamp="1599040306999" />
     <state width="1398" height="196" key="GridCell.Tab.0.bottom" timestamp="1599036451249">
       <screen x="0" y="23" width="1440" height="788" />
     </state>

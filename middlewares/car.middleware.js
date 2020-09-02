@@ -2,7 +2,7 @@ module.exports = {
     carsValid: (req, res, next) => {
         try {
             const car = req.body;
-            if (!car.model || !car.year || car.price){
+            if (!car.model || !car.year || car.price) {
                 throw new Error('Input values is required')
             }
 
@@ -14,9 +14,8 @@ module.exports = {
             }
             next();
 
-        }
-        catch (e) {
-            return req.status(400).json(e.message)
+        } catch (e) {
+            return res.status(400).end(e.message);
         }
     }
 }

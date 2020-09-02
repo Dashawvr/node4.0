@@ -10,7 +10,7 @@
 // module.exports = connection.promise();
 
 
-const { Sequalize, DataTypes } = require('sequelize');
+const { Sequelize, DataTypes } = require('sequelize');
 const fs = require('fs');
 const path = require('path');
 
@@ -18,7 +18,11 @@ module.exports = (() => {
     let instance;
 
     function  initConnection() {
-        const client = new Sequalize('cars-shop', 'root', 'HomeHome20012018', {
+        // const client = new Sequalize('cars-shop', 'root', 'HomeHome20012018', {
+        //     host: 'localhost',
+        //     dialect: 'mysql'
+        // });
+        const client = new Sequelize('cars-shop', 'root', 'HomeHome20012018', {
             host: 'localhost',
             dialect: 'mysql'
         });
