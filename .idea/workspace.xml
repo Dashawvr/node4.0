@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32b02e85-0eb4-4536-9cfd-c1f360f640d9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1gu9FuOtnAHmD3cnQFM55zmQbhj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32b02e85-0eb4-4536-9cfd-c1f360f640d9" name="Default Changelist" comment="" />
+      <created>1598953509687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598953509687</updated>
+      <workItem from="1598953514751" duration="4000" />
+      <workItem from="1598953566522" duration="1167000" />
+      <workItem from="1598964554952" duration="9679000" />
+      <workItem from="1599036563297" duration="3108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom" timestamp="1599036451249">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom/0.23.1440.788@0.23.1440.788" timestamp="1599036451249" />
+    <state width="1398" height="196" key="GridCell.Tab.0.center" timestamp="1599036451247">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.center/0.23.1440.788@0.23.1440.788" timestamp="1599036451247" />
+    <state width="1398" height="196" key="GridCell.Tab.0.left" timestamp="1599036451246">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.left/0.23.1440.788@0.23.1440.788" timestamp="1599036451246" />
+    <state width="1398" height="196" key="GridCell.Tab.0.right" timestamp="1599036451248">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state width="1398" height="196" key="GridCell.Tab.0.right/0.23.1440.788@0.23.1440.788" timestamp="1599036451248" />
+  </component>
+</project>
