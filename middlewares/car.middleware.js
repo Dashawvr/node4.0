@@ -2,20 +2,21 @@ module.exports = {
     carsValid: (req, res, next) => {
         try {
             const car = req.body;
-            if (!car.model || !car.year || car.price) {
+            if (!car.model || !car.price || car.year) {
                 throw new Error('Input values is required')
             }
-
+            next();
             if (car.price < 0 || car.price === 0) {
                 throw new Error('Price should be positive')
             }
-            if (car.year > 2020 || car.year.length < 4) {
+            next();
+            if (car.year > 2020 || car.year <= 1000) {
                 throw new Error('Undefined year. Please check year again')
             }
             next();
 
         } catch (e) {
-            return res.status(400).end(e.message);
+            return res.status(400).json(e.message);
         }
     }
 }

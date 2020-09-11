@@ -18,10 +18,6 @@ module.exports = (() => {
     let instance;
 
     function  initConnection() {
-        // const client = new Sequalize('cars-shop', 'root', 'HomeHome20012018', {
-        //     host: 'localhost',
-        //     dialect: 'mysql'
-        // });
         const client = new Sequelize('cars-shop', 'root', 'HomeHome20012018', {
             host: 'localhost',
             dialect: 'mysql'

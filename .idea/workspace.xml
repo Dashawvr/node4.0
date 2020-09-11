@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="32b02e85-0eb4-4536-9cfd-c1f360f640d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="32b02e85-0eb4-4536-9cfd-c1f360f640d9" name="Default Changelist" comment="Sequelize..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataBase/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/car.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/car.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/car.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/car.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/car.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +80,40 @@
       <workItem from="1598964554952" duration="9679000" />
       <workItem from="1599036563297" duration="4909000" />
       <workItem from="1599044644522" duration="270000" />
-      <workItem from="1599046185071" duration="1463000" />
+      <workItem from="1599046185071" duration="2389000" />
+      <workItem from="1599053647575" duration="405000" />
+      <workItem from="1599498380852" duration="15000" />
+      <workItem from="1599578068239" duration="1448000" />
+      <workItem from="1599857134600" duration="302000" />
     </task>
+    <task id="LOCAL-00001" summary="Sequelize..">
+      <created>1599048413069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599048413070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sequelize.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sequelize.." />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="325" key="Github.ShareDialog" timestamp="1599040280924">
@@ -93,5 +140,27 @@
       <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state width="1398" height="196" key="GridCell.Tab.0.right/0.23.1440.788@0.23.1440.788" timestamp="1599036451248" />
+    <state x="320" y="153" key="Vcs.Push.Dialog.v2" timestamp="1599048415884">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state x="320" y="153" key="Vcs.Push.Dialog.v2/0.23.1440.788@0.23.1440.788" timestamp="1599048415884" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/services/car.service.js</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/services/car.service.js</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

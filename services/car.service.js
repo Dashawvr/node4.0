@@ -13,19 +13,19 @@ module.exports = {
         const Car = connection.getModel('Car')
         return Car.getCarId(newId)
     },
-    updateCar: async (Id, car) => {
+    updateCar: async (id, car) => {
         const Car = connection.getModel('Car')
         return Car.updateCar(car,{
             where: {
-                id: Id
+                id
             }
         })
     },
-    deleteCar: async (Id) => {
+    deleteCar: async (id) => {
         const Car = connection.getModel('Car')
         return Car.destroyCar({
             where: {
-                id: Id
+                id
             }
         })
     }
