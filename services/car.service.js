@@ -3,7 +3,7 @@ const connection = require('../dataBase').getInstance();
 module.exports = {
     createCar: async (carObject) => {
         const Car = connection.getModel('Car')
-        return Car.createCar(carObject, {new: true})
+        return Car.create(carObject, {new: true})
     },
     findAll: async  () => {
         const Car = connection.getModel('Car')
@@ -11,19 +11,19 @@ module.exports = {
     },
     getCarById: async (newId) => {
         const Car = connection.getModel('Car')
-        return Car.getCarId(newId)
+        return Car.findByPk(newId)
     },
     updateCar: async (id, car) => {
         const Car = connection.getModel('Car')
-        return Car.updateCar(car,{
+        return Car.update(car,{
             where: {
                 id
             }
         })
     },
     deleteCar: async (id) => {
-        const Car = connection.getModel('Car')
-        return Car.destroyCar({
+        const car = connection.getModel('Car')
+        return car.destroy({
             where: {
                 id
             }

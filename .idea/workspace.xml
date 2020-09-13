@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32b02e85-0eb4-4536-9cfd-c1f360f640d9" name="Default Changelist" comment="Sequelize..">
+    <list default="true" id="32b02e85-0eb4-4536-9cfd-c1f360f640d9" name="Default Changelist" comment="Sequelize 2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataBase/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/car.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/car.middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/car.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/car.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/car.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/car.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/car.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,8 @@
       <workItem from="1599053647575" duration="405000" />
       <workItem from="1599498380852" duration="15000" />
       <workItem from="1599578068239" duration="1448000" />
-      <workItem from="1599857134600" duration="302000" />
+      <workItem from="1599857134600" duration="590000" />
+      <workItem from="1599996313060" duration="1552000" />
     </task>
     <task id="LOCAL-00001" summary="Sequelize..">
       <created>1599048413069</created>
@@ -93,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599048413070</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sequelize 2.0">
+      <created>1599857720622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599857720622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +119,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sequelize.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Sequelize.." />
+    <MESSAGE value="Sequelize 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sequelize 2.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="325" key="Github.ShareDialog" timestamp="1599040280924">
@@ -140,9 +147,10 @@
       <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state width="1398" height="196" key="GridCell.Tab.0.right/0.23.1440.788@0.23.1440.788" timestamp="1599036451248" />
-    <state x="320" y="153" key="Vcs.Push.Dialog.v2" timestamp="1599048415884">
-      <screen x="0" y="23" width="1440" height="788" />
+    <state x="320" y="153" key="Vcs.Push.Dialog.v2" timestamp="1599857731057">
+      <screen x="0" y="23" width="1440" height="785" />
     </state>
+    <state x="320" y="153" key="Vcs.Push.Dialog.v2/0.23.1440.785@0.23.1440.785" timestamp="1599857731057" />
     <state x="320" y="153" key="Vcs.Push.Dialog.v2/0.23.1440.788@0.23.1440.788" timestamp="1599048415884" />
   </component>
   <component name="XDebuggerManager">
@@ -151,13 +159,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/services/car.service.js</url>
           <line>13</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/services/car.service.js</url>
           <line>17</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

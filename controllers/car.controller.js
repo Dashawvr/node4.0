@@ -7,7 +7,7 @@ module.exports = {
             res.status(201).json(car);
         }
         catch (e) {
-            res.json(e.message);
+            res.end(e.message);
         }
     },
     getAll: async (req, res) => {
@@ -16,34 +16,34 @@ module.exports = {
             res.json(cars);
         }
         catch (e) {
-            res.json(e.message);
+            res.end(e.message);
         }
     },
     getCarId: async (req, res) => {
         try {
-            const car = await carService.getCarById(req.params.id)
-            res.json(car);
+            const car = await carService.getCarById(+req.params.id)
+            res.json({car});
         }
         catch (e) {
-            res.json(e.message);
+            res.end(e.message);
         }
     },
     updateCar: async (req, res) => {
         try {
-            const car = await carService.updateCar(req.body, req.params.id)
+            const car = await carService.updateCar(req.body, +req.params.id)
             res.json(car, 'Updated Successfully');
         }
         catch (e) {
-            res.json(e.message);
+            res.end(e.message);
         }
     },
     destroyCar: async (req, res) => {
         try {
-            const car = await carService.deleteCar(req.params.id)
-            res.json(car, 'Deleted Successfully');
+            const car = await carService.deleteCar(+req.params.id)
+            res.status(200).json(car);
         }
         catch (e) {
-            res.json(e.message);
+            res.end(e.message);
         }
     }
 }
