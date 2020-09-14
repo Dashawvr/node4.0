@@ -10,7 +10,7 @@ module.exports = {
                 throw new Error('Price should be positive')
             }
             next();
-            if (car.year > 2020 || car.year <= 1000) {
+            if (car.year > new Date().getFullYear() || car.year <= 1000) {
                 throw new Error('Undefined year. Please check year again')
             }
             next();
